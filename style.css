@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    font-family: 'DynaPuff', cursive;
+    width: 434px;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 72px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(228, 22, 218); */
+    height: 45vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 45vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+    font-family: 'DynaPuff', cursive;
+}
+.name{
+    font-size: 35px;
+    font-family: 'DynaPuff', cursive;
+}
+.about{
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+}
+.buttons{
+    margin-top: 24px;
+}
+.buttons button{
+    padding: 8px;
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.moreabout{
+    font-size: 15px;
+    font-family: 'DynaPuff', cursive;
+    margin-top: 12px;
+}
+
+.contactform {
+    padding-top: 150px;
+    padding-left: 44px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.contactform h1{
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    display: flex;
+    
+}
+
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: rgb(145, 145, 167);
+    margin: 0 5px;
+}
